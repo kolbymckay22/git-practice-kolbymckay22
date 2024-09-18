@@ -1,0 +1,128 @@
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   18  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   32  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  166  brew install git
+  167  git --version
+  168  git config --global user.name "Kolby Taylor"
+  169  git config -- global user.email kolbymckay22@gmail.com
+  170  git config -- global user.email kolbymckay22@gmail.com
+  171  git config -- global user.email kolbymckay22@gmail.com
+  172  kolbytaylor@supports-MacBook-Pro-9 ~ % git config -- global user.email kolbymckay22@gmail.com\nfatal: not in a git directory
+  173  git config -- global user.email "kolbymckay22@gmail.com"
+  174  echo "# stat_major" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/kolbymckay22/stat_major.git\ngit push -u origin main
+  177  git config --global user.email kolbymckay22@gmail.com
+  178  git config -- global init.defaultBranch main
+  179  git config - global init.defaultBranch main
+  185  cd git-practice-kolbymckay22
+  189  cd git-practice-kolbymckay22
+  192  git status
+  195  git status
+  196  git add file_1.txt
+  197  git status
+  198  git add file_2.txt
+  199  git status
+  200  git commit -m "create new files"
+  201  git status
+  202  git log
+  203  git status
+  205  git add .
+  206  git status
+  207  git rmv file_2.txt
+  208  git rm file_2.txt
+  210  git rm file_2.txt -f
+  211  git status
+  214  git status
+  215  git status
+  216  git add file_2.txt
+  218  git status
+  220  git add file_2.txt
+  221  git status
+  222  git commit -m "updating file 1"
+  223  git log
+  224  git status
+  225  git add .
+  226  git commit -m "adding file 2"
+  227  git log
+  229  git status
+  230  git add .
+  231  git commit -m "adding readme file, which contains the repo description and title"
+  232  git log
+  233  touch .gitignore
+  234  git status
+  236  git add .
+  237  git commit -m "adding the gitignore files to hide follows that I don't want committed"
+  238  git status
+  240  git status
+  241  git checkout -b features
+  242  git switch features
+  243  git log
+  245  git add .
+  246  git commit -m "add empty file"
+  247  git add .
+  248  git commit -m "make changes to the new_features file\n"
+  249  git status
+  250  git log
+  252  git switch main
+  253  git log
+  255  git add .
+  256  git commit -m "add my name"
+  257  git merge features
+  258  git commit
+  259  git merge features
+  260  git status
+  261  git commit -m "update new features text"
+  262  git status
+  263  git merge features
+  265  git add .
+  266  git commit -m "no features will be created."
+  267  git switch features
+  268  git add .
+  269  git commit -m "this file has some new text"
+  270  git switch main
+  271  git merge features
+  272  git status
+  273  git add .
+  274  git commit -m "made some changes to the files so that there isn't a merge conflict"
+  275  git status
+  276  git merge features
+  278  git delete features
+  279  git rm features
+  280  git features -d
+  281  git branch -d features
+  282  git remote add origin git@github.com:kolbymckay22/git-practice-kolbymckay22.git
+  283  git push -u origin main
+  284  git status
+  285  git remote add origin git@github.com:kolbymckay22/git-practice-kolbymckay22.git\ngit branch -M main\ngit push -u origin main
+  288  git remote add origin git@github.com:kolbymckay22/git-practice-kolbymckay22.git
+  289  git push -u origin main
+  290  git status
+  336  mkdir git-alyssa
+  337  cd git-alyssa
+  340  cd git-practice-kolbymckay22
+  342  git status
+  343  git add .
+  344  git commit
+  345  git commit -m "Adding all changes"
+  346  git status
+  347  git remote add origin git@github.com:kolbymckay22/git-practice-kolbymckay22.git
+  348  git push -u origin main
+  349  git pull
+  350  git merge
+  351  git commmit -m "merging"
+  352  git commit -m "merging"
+  354  git status
+  355  git push -u origin main
+  356  git clone git@github.com:kolbymckay22/git-practice-aford10.git
+  359  cd git-alyssa
+  361  git clone git@github.com:kolbymckay22/git-practice-aford10.git
+  362  git status
+  364  cd git-practice-aford10
+  366  git checkout -b feature-kolbymckay22
+  368  git add .
+  369  git commit
+  370  git commit -m "add random.txt"
+  371  git push origin feature-kolbymckay22
+  372  git pull
+  375  cd git-practice-kolbymckay22
+  376  git log --oneline > gitlog.txt
+  377  history | grep git > history.txt

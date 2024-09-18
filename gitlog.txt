@@ -1,0 +1,16 @@
+7c85259 merging
+29fc332 Adding all changes
+5b0e632 Merge pull request #2 from chale15/feature-chale15
+185deeb Create chale15_changes.txt
+2e90435 made some changes to the files so that there isn't a merge conflict
+a28ceb1 this file has some new text
+4e3956c no features will be created.
+488231b update new features text
+53fed34 add my name
+4649fa4 make changes to the new_features file
+e2fa4f3 add empty file
+3b9bc38 adding the gitignore files to hide follows that I don't want committed
+664c04e adding readme file, which contains the repo description and title
+00176c4 adding file 2
+a387a59 updating file 1
+20d6757 create new files
